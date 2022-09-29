@@ -1,0 +1,36 @@
+
+@forward 'color';
+
+@mixin iconClose {
+    font-size: 1.8rem;
+    cursor: pointer;
+}
+
+@mixin title-style {
+    font-size: 2em;
+    font-weight: 700;
+    margin: 1rem 0 1rem 0;
+    @media (max-width:920px) {
+        font-size: 1.8rem;
+    }
+}
+@mixin paragraphBig-style {
+    /* text-transform: uppercase; */
+    font-size: 1.2em;
+    margin-bottom: .625rem;
+     @media (max-width:920px) {
+         font-size: 1.1rem;
+         text-align: center;
+     }
+}
+
+@mixin modal-cont {
+    width: 50%;
+    height: 25rem;
+    background-color: #FFF;
+    border-radius: .625rem;
+      @media (max-width:920px) {
+          width: 100%;
+      }
+}
+
