@@ -1,8 +1,8 @@
 
-
+import Funcion from "@templates/codigo.js";
 const  Script = () => {
 
-  const codeJavascript = '/src/template/codigo.js';
+  const codeJavascript = Funcion();
 
    let fragment = document.createDocumentFragment();
    let script = document.createElement("SCRIPT");
