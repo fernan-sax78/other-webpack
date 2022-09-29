@@ -39,7 +39,6 @@ body{
     justify-content: center;
     align-items: center;
 }
-
 .container button{
     background-color: var(--color-btn-warning);
     color: var(--color-light);

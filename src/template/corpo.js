@@ -14,17 +14,17 @@ const Corpo = () => {
 const principalPage = `
 
     <div class="titleHead">
-      <h2>Awesome way to programming... WebPack</h2>
+      <h2>Awesome way to programming... WebPack a smarty way</h2>
     </div>
     <div class="container">
-        <h1>Hello my people</h1>
-        <p>Proclame la présente Déclaration universelle des droits de l’homme</p>
+        <h1>A little WebPack Project</h1>
+        <p>Webpack is a free and open-source module bundler for JavaScript.</p>
         <button class = "btn" >Click here</button>
         <div class="imagenes">
         
-        <img src= "${img1}" alt="">
-        <img src= "${img2}" alt="">
-        <img src= "${img3}" alt="">
+        <div><img src= "${img1}" alt=""><span>Breackfast</span></div>
+        <div><img src= "${img2}" alt=""><span>Beauty</span></div>
+        <div><img src= "${img3}" alt=""><span>My Town</span></div>
         
         </div>
 
