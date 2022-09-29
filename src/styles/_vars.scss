@@ -19,6 +19,8 @@
     /* border: 1px solid #000; */
     h2{
       color : font-size.$color-danger;
+      text-align: center;
+      padding: .625rem;
       @media (max-width:920px) {
         text-align: center;
         padding: .625rem;
