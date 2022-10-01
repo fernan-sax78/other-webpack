@@ -15,7 +15,7 @@ module.exports = {
     assetModuleFilename: "assets/images/[hash][ext][query]",
   },
   resolve: {
-    extensions: [".js"],
+    extensions: [".js", ".jsx"],
     alias: {
       "@utils": path.resolve(__dirname, "src/utils/dist/"),
       "@templates": path.resolve(__dirname, "src/template/"),
@@ -26,11 +26,19 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.m?js$/,
+        test: /\.(js|jsx)$/,
         exclude: /node_modules/,
         use: {
           loader: "babel-loader",
         },
+      },
+      {
+           test : /\.html$/,
+           use : [
+            {
+              loader: 'html-loader'
+            }
+           ]
       },
       {
         test: /\.css|.s[ac]ss$/i,
